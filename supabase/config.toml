@@ -1,0 +1,13 @@
+# supabase/config.toml
+project_id = "tu-proyecto-maido-plantilla" # Esto es solo un placeholder para la plantilla
+[api]
+ port = 54321 # Descomentar si usas el CLI local
+ enabled = true
+[db]
+ port = 54322 # Descomentar si usas el CLI local
+ major_version = 15
+[studio]
+ port = 54323 # Descomentar si usas el CLI local
+ enabled = true
+[functions.mcp-server]
+# verify_jwt = true # El script maido-suite puede usar --no-verify-jwt si la auth es por token de API
